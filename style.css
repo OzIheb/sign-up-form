@@ -67,6 +67,7 @@ form
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   opacity: 80%;
+  width: 100%;
 }
 button, input, select, textarea {
   font-family: inherit;
@@ -80,7 +81,8 @@ button, input, select, textarea {
     width: 40%;
     font-size: 1rem;
     text-transform: uppercase;
-    opacity: 50%;
+    opacity:80%;
+    letter-spacing: 0.05em;
 }
 input{
     background-color: white;
@@ -90,5 +92,28 @@ input{
 
 input:focus{
     outline: none;
-    border: 2px solid var(--color);
+    border: 2px solid black;
+}
+button {
+  margin-top: 32px;
+  border: none;
+  background-color: #596D48;
+  padding: 12px 48px;
+  border-radius: 8px;
+  box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.login{
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 32px;
+}
+
+.login a {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
 }
